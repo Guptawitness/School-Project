@@ -1,0 +1,520 @@
+body {
+    margin: 0px auto;
+    font-family: Comic Sans ms;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+
+/*navbar*/
+
+#nav {
+    background: linear-gradient(to bottom, rgb(255, 68, 68), #f88);
+    width: 100%;
+    height: 20%;
+    opacity: 0.9: position: fixed;
+}
+
+#myImg {
+    float: left;
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    margin-left: 0px;
+}
+
+#Img {
+    float: left;
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    margin-left: 0px;
+}
+
+#Im {
+    float: left;
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    margin-left: 0px;
+}
+
+#logo {
+    float: left;
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    margin-left: 0px;
+}
+
+#nav a i {
+    float: right;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#nav i:hover {
+    color: #eee;
+    font-size: 20px;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+#nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 45px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.bold-text {
+    margin: 0;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    line-height: 2.5;
+    padding-bottom: 7px;
+}
+
+#nav a:hover {
+    color: #eee;
+    font-size: 20px;
+    opacity: 0.9;
+    ;
+}
+
+#nav ul {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10%;
+    padding-left: 120px;
+}
+
+#nav ul li:hover ul {
+    display: block;
+}
+
+#nav ul li ul {
+    position: absolute;
+    width: 20px;
+    display: none;
+    background: linear-gradient(to bottom, #f33, #f44, #f55, #f66, #f77, #F88, #f99);
+    margin-left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 9.5%;
+}
+
+#nav ul li ul li a {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#nav ul li ul li {
+    margin: 0px;
+    margin-top: -2.7px;
+    display: block;
+    width: 120px;
+    padding: 5px;
+    border: 0px;
+}
+
+#nav p {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    line-height: 2;
+    font-size: 48px;
+    font-style: italic;
+    font-family: Arizonia;
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 70%;
+    display: inline-block;
+    border-radius: 80px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 18px;
+    text-align: justify;
+    background: #eee;
+}
+p{
+    font-weight:bold;
+}
+
+#section {
+    background: linear-gradient(to top, #01FFA1, #EE99FF, #f99);
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.box p {
+    height: 20%;
+    width: 90%;
+}
+
+#nav p:hover {
+    opacity: 0.8;
+}
+
+.box img {
+    border-radius: 80px;
+    float: left;
+    width: 20%;
+    height: 22%;
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    background: linear-gradient(to top, #01FFA1, #EE99FF, #f99);
+}
+
+.btn {
+    height: 5%;
+    width: 10%;
+    margin-left: 760px;
+    margin-top: -42px;
+    border-radius: 80px;
+    
+    font-size: 12px;
+    background: #aaa;
+    color: #fff;
+}
+
+#section2 img {
+    width: 290px;
+    height: 290px;
+    padding: 30px;
+}
+
+#section2 img:hover {
+    opacity: 0.8;
+}
+
+#section2 h2 {
+    padding-left: 40px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    color: #000;
+}
+
+#section2 {
+    background: linear-gradient(to bottom, #01FFA1, #FCF804, #FFFD8C, #F55);
+    padding-left: 50px;
+}
+
+#btn {
+    height: 5%;
+    width: 10%;
+    color: #000;
+    margin-left: 1150px;
+    margin-top: -20px;
+    border-radius: 80px;
+    font-family: comic sans ms;
+    font-size: 12px;
+    background: #aaa;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+/*arcade*/
+
+#arcade {
+    margin-left: 120px;
+    margin-top: 70px;
+}
+
+#arcade img {
+    height: 30%;
+    width: 20%;
+    padding: 10px;
+}
+
+
+/*review*/
+
+#section1 {
+    height: 10%;
+    width: 100%;
+}
+
+#review {
+    border-radius: 10px;
+    height: 100%;
+    margin: 30px;
+    width: 80%;
+    font-size: 20px;
+    border: 3px solid #aaa;
+}
+
+#name {
+    border-radius: 10px;
+    height: 100%;
+    margin: 30px;
+    width: 80%;
+    font-size: 20px;
+    border: 3px solid #aaa;
+}
+
+#review-btn {
+    height: 100%;
+    width: 15%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#review-p {
+    border-radius: 10px;
+    color: #F44;
+    background: #ccc;
+    margin: 20px;
+    text-align: left;
+    padding-left: 10px;
+    width: 80%;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {
+    opacity: 0.7;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content (image) */
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+
+/* Caption of Modal Image */
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+
+/* Add Animation */
+
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* The Close Button */
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* 100% Image Width on Smaller Screens */
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+/*video*/
+
+#video {
+    width: 100%;
+    height: auto;
+    padding-left: 250px;
+}
+
+
+/*description of places*/
+
+#cities {
+    margin-left: 180px;
+}
+
+.city {
+    width: 70%;
+    height: auto;
+    padding: 35px;
+    background: #ccc;
+    margin: 10px;
+    border-radius: 80px;
+    color: #fff;
+}
+
+.city img {
+    width: 25%;
+    height: 30%;
+    margin: 25px;
+    padding: 5px;
+    background: linear-gradient(to top, #01FFA1, #EE99FF, #f99);
+    border-radius: 50px;
+}
+
+
+/*about*/
+
+#about {
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to top, #FCF804, #01FFA1, #EE99FF, #f99, #f88);
+}
+
+.abt {
+    width: 80%;
+    height: auto;
+    color: #fff;
+    background: #ccc;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 80px;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.abt img {
+    width: 20%;
+    display: inline-block;
+    padding: 10px;
+    float: left;
+    border-radius: 80px;
+}
+
+
+/*footer*/
+
+#footer {
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to top, #F33, #F55);
+    color: #fff;
+    margin-top: 20px;
+}
+
+#footer img {
+    width: 8%;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+}
+
+#email {
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+#cpy {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#footer p i {
+    color: #eee;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    margin-top: -20px;
+    margin-left: 150px;
+}

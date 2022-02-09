@@ -1,0 +1,59 @@
+
+<html>
+<head>
+<link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'>
+</head>
+<body>
+  <div id="nav">
+ <a href="logo.png" target="_self"><img src="logo.png" id="logo"></a>
+ <a href="https://www.instagram.com/shekhawatiinsta/"><i class="fa fa-instagram fa-1x"  aria-hidden="true"></i></a>
+   <a href="https://www.facebook.com/pages/Shekhawati/136476256375569"> <i class="fa fa-facebook-official fa-1x" aria-hidden="true"></i></a>
+ <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="arcade.html">Arcade</a></li>
+	<li><a>Explore</a>
+	<ul >
+	<li ><a href="sikar.html">Sikar</a></li>
+	<li ><a href="churu.html">Churu</a></li>
+	<li ><a href="nawalgarh.html">Nawalgarh</a></li>
+	<li ><a href="mandawa.html">Mandawa</a></li>
+	<li ><a href="pilani.html">Pilani</a></li>
+
+	</ul>
+	</li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="review.html">Experience</a></li>
+</ul>
+    </div>
+<div id="section1">
+<input type="text" id="name" placeholder="NAME" minlength="10">
+ <input type="text" id="review" placeholder="REVIEW" minlength="30">
+<br />
+ <button onclick="showResults()" id="review-btn" >Review</button>
+	<div id="review-p"></div>
+	
+ <script>
+  function showResults(){
+ var a =(document.getElementById("name").value);
+ var b =(document.getElementById("review").value) ;
+
+ document.getElementById("review-p"). innerHTML+=  "<h2 class='bold-text'>" + a + "</h2><br>" ;
+ document.getElementById("review-p"). innerHTML+=  b+"<hr><br>";
+
+}
+</script>
+</div>
+     <div id="footer" style="margin-top:800px; display:inline-block: position:relative;">
+        <img src="logo.png" >
+        <p id="email">E-mail:003guptasakshi@gmail.com<br>Phone:9468604459 <br><a href="https://www.google.com/intl/en_in/gmail/about/"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        <i class="fa fa-facebook-square" aria-hidden="true" style="margin-left:3px"></i></p>
+        <hr>
+        <p id="cpy">&copy;OoMegaDivine|All Right Reserved </p>
+        
+    </div>
+
+
+</body>
+</html>
